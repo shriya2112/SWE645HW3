@@ -20,7 +20,7 @@ public class SurveyController {
     // Root endpoint for the application
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to the Student Management Application! Please use this database to view the student information.";
+		return "Welcome to the Student Management Application! Please use this link to view database_1 which has survey table.";
 	}
 
 	// Endpoint to get all surveys
