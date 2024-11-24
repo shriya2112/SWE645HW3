@@ -1,4 +1,4 @@
-# Survey API
+# SurveyModel API
 
 For more detail information on how to connect it with frontend UI, cloud hosting and running the docker container on K8s, please [click here](https://github.com/aniket414/swe645-software-development/tree/master/Assignment-3)!
 
@@ -10,7 +10,7 @@ This Project consists of three APIs described as below:
 2. GET | api/v1.0/surveys -> Get all the surveys done till date.
 3. POST | api/v1.0/surveys -> Save a new survey.
 
-Survey Contract:
+SurveyModel Contract:
 ```json
         {
             "firstName": "John",

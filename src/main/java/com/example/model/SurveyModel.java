@@ -1,4 +1,4 @@
-package com.survey.app.model;
+package com.example.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,7 +12,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name="survey")
-public class Survey {
+public class SurveyModel {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
