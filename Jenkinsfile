@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.9.2' // Use the configured Maven tool
+        maven 'Maven 3.9.2' // Ensure this matches the configured name
     }
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub') // Docker credentials
@@ -14,7 +14,6 @@ pipeline {
         }
         stage('Build Maven Project') {
             steps {
-                // Build the Maven project
                 sh 'mvn clean package -DskipTests'
             }
         }
